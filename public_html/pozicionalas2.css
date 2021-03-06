@@ -1,29 +1,48 @@
 @charset "utf-8";
 
+
 header {
-    position:fixed;
-    width:100%;
+    position: fixed;
+    width: 100%;
 }
 
 footer {
     position:fixed;
-    width:100%;
+    width: 100%;
     bottom:1px;
-    éeft:1px;
+    left: 1px;
 }
+/*    top
+    bottom
+    left
+    right/
+    bottom:1px;
+    left: 1px;
+}*/
 #kerdojel {
     position: fixed;
     bottom: 10px;
-    right:10px;
+    right: 10px;
 }
-
+nav {
+   position: absolute;
+   top: 110px;
+   left:20px;
+}
 main {
-    position: absolute;
+    position: static;
     padding-top: 100px;
 }
-
-nav {
-    position:fixed;
-    top:110px;
-    left:20px;
+#szamol {
+    position:relative;
+    top:5px;
+    right: -200px;
+}
+/*form {
+    position: relative;
+}*/
+#zar {
+    position: absolute;
+    top: 0px;
+    right: -200px;
 }
